@@ -24,7 +24,12 @@ def create_movie(title, overview, release_date, poster_path):
 
 
 def create_rating(user, movie, score):
-    """Create and return a new rating."""
+    """Create and return a new rating.
+    
+    Args:
+        user is a user instance,
+        movie 
+    """
     
     rating = Rating(user=user, movie=movie, score=score)
 
